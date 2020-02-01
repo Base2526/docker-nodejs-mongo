@@ -5,6 +5,10 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 
 RUN npm install
+
+# ลง nodemon เพราะตอนเราแก้ใข code สามารถ refresh ได้เลย
+RUN npm install -g nodemon
+
 # Copy app source code
 COPY . .
 

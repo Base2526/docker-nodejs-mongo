@@ -8,4 +8,7 @@ const userSchema = new mongoose.Schema({
 
 const User = mongoose.model("User", userSchema);
 
+// db.collection('Person').watch().
+//     on('change', data => console.log(new Date(), data));
+
 module.exports = User;
