@@ -7,9 +7,9 @@
     "test": "jest"
   },
   "dependencies": {
-    "nodejs-mobile-react-native": "0.3.0",
+    "nodejs-mobile-react-native": "0.8.2",
     "react": "16.4.1",
-    "react-native": "0.56.0",
+    "react-native": "0.70.4",
     "socket.io-client": "^2.3.0"
   },
   "devDependencies": {
